@@ -10,7 +10,7 @@ deles seja "true", usando os Wrapper Objects como "conversores" nos valores
 das variáveis. Analise o que está sendo impresso no console para saber como
 resolver o problema corretamente.
 */
-var five = Number('5');
+var five = Number('5'); //wrapper object
 console.log( five + ' é número?', typeof five === 'number' );
 
 var concat = String(10) + String(10);
